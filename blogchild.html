@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+           <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <link rel="shortcut icon" href="./image/fav.png" type="image/x-icon">
+    <!-- font  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- swiper cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./bakery.css">
+    <!-- JS  -->
+    <script type="module" src="./bakery.js"></script>
+</head>
+
+<body>
+
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg bg-light p-0 m-0">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-1" href="#">Bak<span class="color">ery</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./service.html">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="Consultation px-3 py-2 d-flex align-items-center justify-content-center">
+                    <i class="bi bi-chat-left-text fs-3 color me-3"></i>
+                    <div class="">
+                        <h4 class="m-0"> Get Consultation</h3>
+                            <p class="m-0">(021) 4582 - 3695</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- \nav end -->
+
+    <section class="blog_page d-flex align-items-center justify-content-center text-white text-center">
+        <div class="container">
+            <div class="div">
+                <h2 class="fw-bold display-4">Blog Grid</h2>
+                <h6 class="fs-5">Home <span><i class="fa-solid fa-angle-right color"></i></span> Blog</h6>
+            </div>
+        </div>
+    </section>
+
+
+      <!-- section end  -->
+
+      <section class="Blog p-100">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <div class="blog_min rounded-3 overflow-hidden">
+                        <div class="blog_front">
+                            <img src="./image/blog.jpg" alt="mg" class=" w-100">
+                            <div class="blog_grid bg-white d-block d-md-flex align-content-center p-2 p-md-4">
+                                <h4 class="color"><b>March 29,2023</b></h4>
+                                <p class="ps-0 ps-md-3 ms-auto">By : Admin / 0 Comments</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-2 p-md-4 ms-3">
+                            <p>Our objective at homelane is to bring together our visitor’s societies and spirits with
+                                our own, communicating enthusiasm and liberality in the food we share. Our objective at
+                                homelane is to bring together our visitor’s societies and spirits with our own,
+                                communicating enthusiasm and liberality in the food we share. Our objective at homelane
+                                is to bring.</p>
+
+                            <h3 class="fs-2 fw-medium py-3">Two Column Text Sample</h3>
+
+                            <p class="pb-3">Here is main text quis nostrud exercitation ullamco laboris nisi here is
+                                itealic text ut
+                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                velit esse cillum dolore eu fugiat nulla rure dolor in reprehenderit in voluptate velit
+                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat here is link
+                                cupidatat non proident, sunt in culpa.</p>
+
+                            <h3 class="fs-2 fw-medium py-3">Leave A Comment</h3>
+
+                            <div class="bg-light p-4">
+                                <input type="text" id="name" placeholder="Name"
+                                    class="py-3 ps-2 border rounded w-100 my-2">
+                                <input type="text" id="email" placeholder="Email"
+                                    class="py-3 ps-2 border rounded w-100 my-2">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Type Comment Here"
+                                    class="py-3 ps-2 border rounded w-100 my-2"></textarea>
+                                <button class="butn my-3">POST COMMENT</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="border d-flex align-content-center rounded ps-2 py-2 ">
+                        <input type="search" id="serach" placeholder="Search" class="w-100 border-0">
+                        <i class="fa-solid fa-magnifying-glass fs-3 text-dark me-2"></i>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 fw-medium py-3">Categories</h3>
+                        <ul class="list-unstyled">
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fa-solid fa-angles-right me-2"></i>
+                                <li>General Construction</li>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fa-solid fa-angles-right me-2"></i>
+                                <li>Home Construction</li>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center py-2">
+                                <i class="fa-solid fa-angles-right me-2"></i>
+                                <li>Roof Renovation</li>
+                            </div>
+                        </ul>
+                        <div>
+                            <h3 class="fs-2 fw-medium py-3">Recent News</h3>
+                            <div class="d-flex align-items-center">
+                                <img src="./image/blog.jpg" alt="img" class="w-25">
+                                <div class="ps-4">
+                                    <h6>Normal That Has <br> Evolved From....</h6>
+                                    <span>March 29 2023</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <img src="./image/blog1.jpg" alt="img" class="w-25">
+                                <div class="ps-4">
+                                    <h6>How To Hire <br> A Contractor...
+                                    </h6>
+                                    <span>March 29 2023</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <img src="./image/robotic.jpg" alt="img" class="w-25">
+                                <div class="ps-4">
+                                    <h6>Know The Secreat <br> Of Buildnox...</h6>
+                                    <span>March 29 2023</span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex align-items-center">
+                                <img src="./image/blog3.jpg" alt="img" class="w-25">
+                                <div class="ps-4">
+                                    <h6>The Secreat Of <br> Buildnox Work...
+                                    </h6>
+                                    <span>March 29 2023</span>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="tags">
+                            <h3 class="fs-2 fw-medium py-3">Tages</h3>
+                            <div class="d-flex">
+                                <p class="border p-2 m-1" style="width: max-content;">Price</p>
+                                <p class="border p-2 m-1" style="width: max-content;">Renovation</p>
+                            </div>
+                            <div class="d-flex">
+                                <p class="border p-2 m-1" style="width: max-content;">Repairing</p>
+                                <p class="border p-2 m-1" style="width: max-content;">Side Layer</p>
+                            </div>
+                            <div class="d-flex">
+                                <p class="border p-2 m-1" style="width: max-content;">Tips</p>
+                                <p class="border p-2 m-1" style="width: max-content;">Woodn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer start -->
+
+    <footer class="py-5 ">
+        <div class="container">
+            <div class="row g-3 justify-content-center">
+                <div class="col-lg-3 col-md-6">
+                    <div>
+                        <a class="navbar-brand fw-bold fs-1 text-white" href="#">Bak<span class="color">ery</span></a>
+                        <p class="text-white py-3">Sed ut perspiciatis unde omnis iste natus delavirot voluptatem
+                            accusantium doloremque
+                            laudanti totam aperiam inventore veritatis congueu. Olutpat elit nec nisi congue tristique
+                            eu at velit.</p>
+                        <h5 class="text-white"><span class="color">Hotline</span> : (+62) 111 33 231</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-phone fs-3 color me-3"></i>
+                        <div class="text-white">
+                            <h5 class="m-0">Phone</h5>
+                            <p class="m-0 text-white">+62 478-2240-190</p>
+                        </div>
+                    </div>
+                    <div class="text-white pt-4">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li class="py-1 fw-bold"> About </li>
+                            <li class="py-1 fw-bold"> Service </li>
+                            <li class="py-1 fw-bold"> Blog </li>
+                            <li class="py-1 fw-bold"> Contact </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-envelope fs-3 color me-3"></i>
+                        <div class="text-white">
+                            <h5 class="m-0">Email</h5>
+                            <p class="m-0 text-white">admin@support.com</p>
+                        </div>
+                    </div>
+                    <div class="text-white pt-4">
+                        <h2>Customer Service</h2>
+                        <ul>
+                            <li class="py-1 fw-bold"> Privacy Policy </li>
+                            <li class="py-1 fw-bold"> Terms & Conditions </li>
+                            <li class="py-1 fw-bold"> Support </li>
+                            <li class="py-1 fw-bold"> Disclaimer </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-location-dot fs-3 color me-3"></i>
+                        <div class="text-white">
+                            <h5 class="m-0">Location</h5>
+                            <p class="m-0 text-white">Ambala , Vikash Bihar</p>
+                        </div>
+                    </div>
+                    <div class="text-white pt-4">
+                        <h2>Subscribe Newsletter</h2>
+                        <p class="text-white">Sed ut perspiciatis unde omnis iste natus feria delavirot.</p>
+                        <input type="text" id="email" placeholder="Your Email" class="py-3 ps-3 border w-75">
+                        <button class="butn py-3"><i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <hr style="color: white;">
+            <div class="d-flex align-items-center">
+                <p class="text-white">Copyright © Astrobot 2022. All rights reserved.</p>
+                <div class="facebook_main ms-auto">
+                    <div class="facebook">
+                        <i class="fa-brands fa-facebook-f fs-3 text-white"></i>
+                    </div>
+                    <div class="facebook">
+                        <i class="fa-brands fa-instagram fs-3 text-white"></i>
+                    </div>
+                    <div class="facebook">
+                        <i class="fa-brands fa-whatsapp fs-3 text-white"></i>
+                    </div>
+                    <div class="facebook">
+                        <i class="fa-brands fa-youtube fs-3 text-white"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script  -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- swiper  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
