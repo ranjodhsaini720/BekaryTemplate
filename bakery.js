@@ -7,7 +7,8 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
     autoplay: {
-        delay: 1000,
+        delay: 2500,
+        disableOnInteraction: false,
     },
     breakpoints: {
         100: {
@@ -54,8 +55,8 @@ var swiper = new Swiper(".mySwiper1", {
     },
 });
 
-//   
-// 
+//
+//
 
 // window.onscroll = function () { scroll() };
 // function scroll () {
